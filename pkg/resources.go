@@ -1,9 +1,9 @@
 package pkg
 
 import (
-	gcpcloudrunv1 "buf.build/gen/go/project-planton/apis/protocolbuffers/go/project/planton/provider/gcp/gcpcloudrun/v1"
 	"github.com/pkg/errors"
-	"github.com/project-planton/pulumi-module-golang-commons/pkg/provider/gcp/pulumigoogleprovider"
+	gcpcloudrunv1 "github.com/project-planton/project-planton/apis/go/project/planton/provider/gcp/gcpcloudrun/v1"
+	"github.com/project-planton/project-planton/pkg/pulmod/provider/gcp/pulumigoogleprovider"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
